@@ -1,0 +1,3 @@
+area-label = 98
+
+data-asin = B0G2296B3J

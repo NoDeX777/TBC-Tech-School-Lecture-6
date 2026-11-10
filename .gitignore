@@ -1,0 +1,10 @@
+# Ignore dependency folders
+node_modules/
+
+# Ignore environment and secret files
+.env
+secret.json
+
+# Ignore OS and editor files
+.DS_Store
+.vscode/
