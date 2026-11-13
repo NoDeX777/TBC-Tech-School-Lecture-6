@@ -8,7 +8,7 @@ import React from 'react';
  * 2. Logical AND Operator (პირობა && გამოსახულება)
  */
 function ConditionalRendering() {
-  const isUserEnrolled = true;
+  const isUserEnrolled = false;
   const unreadMessagesCount = 4;
   const userRole = "admin"; // შესაძლო მნიშვნელობები: "admin", "student", "guest"
 

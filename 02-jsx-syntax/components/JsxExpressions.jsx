@@ -10,7 +10,7 @@ function JsxExpressions() {
   const courseName = "Full Stack Development";
   const currentLecture = 3;
   const totalLectures = 24;
-  
+
   const student = {
     firstName: "ნინო",
     lastName: "ბერიძე",

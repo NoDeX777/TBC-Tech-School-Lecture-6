@@ -8,7 +8,7 @@ function Badge({ label, variant = 'info' }) {
   const getBadgeStyle = () => {
     switch (variant) {
       case 'success':
-        return { backgroundColor: '#c6f6d5', color: '#22543d', border: '1px solid #9ae6b4' };
+        return { backgroundColor: '#c6f6d5', color: '#feaa00ff', border: '1px solid #f4f40fff' };
       case 'warning':
         return { backgroundColor: '#feebc8', color: '#7b341e', border: '1px solid #fbd38d' };
       case 'danger':

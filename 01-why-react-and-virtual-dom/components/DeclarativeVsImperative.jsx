@@ -32,7 +32,7 @@ function DeclarativeVsImperative() {
       <p>
         <strong>React-ის ფილოსოფია:</strong> UI = f(state) — ინტერფეისი არის მონაცემების ასახვა.
       </p>
-      
+
       <div style={{ background: '#f7fafc', padding: '12px', borderRadius: '6px' }}>
         {isUserLoggedIn ? (
           <p style={{ color: '#2f855a', fontWeight: 'bold' }}>

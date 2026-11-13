@@ -16,7 +16,11 @@ function App() {
   const coursesData = [
     { id: 1, title: 'შესავალი React-ში', mentor: 'თიბისი მენტორი', statusLabel: 'მიმდინარე', statusVariant: 'warning' },
     { id: 2, title: 'Node.js & Express ბექენდი', mentor: 'დავით კ.', statusLabel: 'აქტიური', statusVariant: 'success' },
-    { id: 3, title: 'PostgreSQL მონაცემთა ბაზები', mentor: 'ანა მ.', statusLabel: 'მომავალი', statusVariant: 'info' }
+    { id: 3, title: 'PostgreSQL მონაცემთა ბაზები', mentor: 'ანა მ.', statusLabel: 'მომავალი', statusVariant: 'info' },
+    { id: 4, title: 'შესავალი React-ში', mentor: 'თიბისი მენტორი', statusLabel: 'მიმდინარე', statusVariant: 'warning' },
+    { id: 5, title: 'Node.js & Express ბექენდი', mentor: 'დავით კ.', statusLabel: 'აქტიური', statusVariant: 'success' },
+    { id: 6, title: 'PostgreSQL მონაცემთა ბაზები', mentor: 'ანა მ.', statusLabel: 'მომავალი', statusVariant: 'info' }
+
   ];
 
   // მშობლის ფუნქციები, რომლებიც გადაეცემა შვილ კომპონენტს (ActionButton)
@@ -56,6 +60,13 @@ function App() {
             age={24}
             isGraduated={true}
             skills={['React', 'Node.js', 'PostgreSQL', 'TypeScript']}
+            contact={{ email: 'mariam@example.com', city: 'ბათუმი' }}
+          />
+          <StudentCard
+            name="ნოდარ კიზირია"
+            age={27}
+            isGraduated={true}
+            skills={['React', 'Node.js', 'PostgreSQL', 'TypeScript', "python", "llm engenering"]}
             contact={{ email: 'mariam@example.com', city: 'ბათუმი' }}
           />
         </div>

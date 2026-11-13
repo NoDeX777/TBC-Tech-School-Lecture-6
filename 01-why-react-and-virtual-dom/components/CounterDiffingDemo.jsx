@@ -17,7 +17,6 @@ function CounterDiffingDemo() {
         დააკვირდით ბრაუზერის ინსპექტორში: ღილაკზე დაჭერისას განახლდება <strong>მხოლოდ</strong> რიცხვი,
         მთლიანი კომპონენტი თავიდან არ იხატება DOM-ში.
       </p>
-
       <div style={{ textAlign: 'center', margin: '20px 0' }}>
         <p style={{ fontSize: '18px', margin: '0 0 10px 0' }}>
           მრიცხველი: <span style={{ fontSize: '24px', fontWeight: 'bold', color: '#3182ce' }}>{count}</span>
